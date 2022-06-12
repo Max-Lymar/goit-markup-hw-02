@@ -1,0 +1,102 @@
+:root{
+    --main-font-family: 'Roboto', sans-serif;
+    --secondary-font-family: 'Raleway', sans-serif;
+    --primary-text-color:#212121;
+    --secondary-text-color: #757575;
+    --active-elements-text-color: #2196F3;
+    --primary-background-color:#E5E5E5;
+    --secondary-background-color:#2F303A;
+
+
+
+
+}
+
+body{
+    font-family: var(--main-font-family);
+    color: var(--primary-text-color);
+}
+
+.nav-list{
+    list-style: none;
+}
+.nav-list-item-link{
+    color: var(--primary-text-color);
+}
+
+.nav-list-item-link:hover,
+.nav-list-item-link:focus{
+    color: var(--active-elements-text-color);
+    cursor: pointer;
+}
+
+.nav-contacts{
+    list-style: none;
+}
+
+.nav-contacts-list-item-link{
+    color: var(--secondary-text-color);
+}
+
+.nav-contacts-list-item-link:hover,
+.nav-contacts-list-item-link:focus{
+    color: var(--active-elements-text-color);
+    cursor: pointer;
+}
+
+.hero-button{
+    background-color: var(--active-elements-text-color);
+    color: #fff;
+}
+
+.hero-button:hover,
+.hero-button:focus{
+    background-color: #188CE8;
+    cursor: pointer;
+}
+
+/*--Portfolio--*/
+
+.button-list{
+    list-style: none;
+}
+
+.button-list-item-btn{
+    background-color: #F5F4FA;
+    color:var(--primary-text-color);
+}
+
+.button-list-item-btn:hover,
+.button-list-item-btn:focus{
+    cursor: pointer;
+    background-color:var(--active-elements-text-color);
+    color: #fff;
+}
+
+/*--Footer*/
+
+.footer{
+    background-color: var(--secondary-background-color);
+}
+
+.contact-address-link{
+    color: #fff;
+}
+
+.contact-address-link:hover,
+.contact-address-link:focus{
+    color: var(--active-elements-text-color);
+}
+
+.contact-list{
+    list-style: none;
+}
+
+.contact-list-item{
+    color: var(--secondary-text-color);
+}
+
+.contact-list-item:hover,
+.contact-list-item:focus{
+    color: var(--active-elements-text-color);
+}
